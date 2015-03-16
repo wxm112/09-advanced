@@ -1,0 +1,5 @@
+directory 'tmp'
+
+file 'tmp/hello.tmp' => 'tmp' do 
+  sh "echo 'hello' >> 'tmp/hello.tmp'"
+end
