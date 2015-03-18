@@ -1,0 +1,42 @@
+body { 
+    font-family:sans-serif; 
+    font-weight:bold; 
+    font-size:16pt;
+}
+/* Topmatter */
+.topmatter {
+    height:210px;    
+}
+.bottommatter{
+    background:#f1f1f1;    
+}
+/* For the left 'Guess A Letter!' and 'Guessed Letter' boxes. */
+.side-container {
+    margin-top:45px;
+    margin-left:130px;
+    width:170px;
+    text-align:center;
+}
+.container-title {
+    color:#6f5a2d;
+}
+.input-area {
+    width:75px;
+    height:31px;
+    margin:auto;
+    padding:3pt;
+    border: 1px #6f5a2d solid;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    background:#ebe2ce;
+}
+#letter-input {
+    border:1px #6f5a2d solid;
+    width:20pt;
+    font-size:14pt;
+    text-align:center;
+}
+.guessed-letter {
+    color:#792c15;
+}
